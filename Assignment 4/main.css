@@ -1,0 +1,124 @@
+body
+{
+background-image: url("https://klv-oboi.kz/img/gallery/98/thumbs/thumb_m_psh_00001454.jpg");
+border: 5px double darkred;
+padding: 14px;
+}
+h1
+{
+background-color: LightCoral;
+font-family: Arial;
+color: darkred;
+font-size: 500%;
+text-align:center;
+border-radius: 20px;
+text-shadow: -1px 0 Lavenderblush, 0 5px Lavenderblush, 5px 0 Lavenderblush, 0 -1px Lavenderblush;
+}
+h2
+{
+background-color: Lavenderblush;
+color: RosyBrown;
+font-size: 250%;
+border-left: 4px solid RosyBrown;
+padding: 15px;
+border-radius: 5px;
+}
+h3
+{
+background-color: Lavenderblush;
+color: RosyBrown;
+font-size: 250%;
+border-left: 4px solid RosyBrown;
+padding: 15px;
+border-radius: 5px;
+}
+div
+{
+background-color: Lavenderblush;
+color: RosyBrown;
+font-size: 250%;
+border-left: 4px solid RosyBrown;
+border-radius: 5px;
+padding: 15px;
+}
+img
+{
+width: 500px;
+height: 350px;
+}
+.tab {
+  border-left: 4px solid RosyBrown;
+  overflow: hidden;
+  background-color: Lavenderblush;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  border-left: 4px solid RosyBrown;
+  background-color: Lavenderblush;
+  float:left;
+  border: none;
+  outline: inherit;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: RosyBrown;
+  font-size:25px;
+
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: RosyBrown; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 50%; /* Rounded corners */
+  font-size: 18px; /* Increase font size */ 
+}
+.slide {
+  background-color: Lavenderblush;
+    backface-visibility: hidden;
+  float:right;
+  border: none;
+  cursor:pointer;
+  color: RosyBrown;
+}
+.btn1{
+      border-left: 4px solid RosyBrown;
+  background-color: Lavenderblush;
+  float:left;
+  border: none;
+  outline: inherit;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: RosyBrown;
+  font-size:15px;
+}
+.btn2{
+      border-left: 4px solid RosyBrown;
+  background-color: Lavenderblush;
+  float:left;
+  border: none;
+  outline: inherit;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: RosyBrown;
+  font-size:15px;
+}
+
+
+#myBtn:hover {
+  background-color:  Darkred; /* Add a dark-grey background on hover */
+}
